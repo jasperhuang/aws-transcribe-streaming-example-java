@@ -202,6 +202,7 @@ public class TranscribeStreamingClientWrapper {
                 .languageCode(LanguageCode.EN_US.toString())
                 .mediaEncoding(MediaEncoding.PCM)
                 .mediaSampleRateHertz(mediaSampleRateHertz)
+                .showSpeakerLabel(true)
                 .build();
     }
 
